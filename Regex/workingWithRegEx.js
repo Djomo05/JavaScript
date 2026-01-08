@@ -23,9 +23,36 @@
 // console.log(replaced);
 
 
-const pattern = "freecodecamp";
-const str = "freecodecamp is the best we love freecodecamp";
-const matched = str.matchAll(pattern);
-const replaced = str.replaceAll(pattern, "freeCodeCamp");
-console.log(matched);
-console.log(replaced);
+//const pattern = "freecodecamp";
+//const str = "freecodecamp is the best we love freecodecamp";
+//const matched = str.matchAll(pattern);
+//const replaced = str.replaceAll(pattern, "freeCodeCamp");
+//console.log(matched);
+//console.log(replaced);
+
+
+const str = "This is a test string";
+str.replace('is', (match, offset) => {
+    console.log(`Found ${match} at position ${offset}`);
+    return match;
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
